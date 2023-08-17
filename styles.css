@@ -1,0 +1,504 @@
+*{
+    margin:0;
+    padding:0;
+}
+hr{
+    color: #fff;
+}
+
+p{
+    margin: 0 auto;
+    width: 80%;
+    font-size: .7rem;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+
+.main1{
+    margin:0 auto;
+    margin-top: 2rem;
+    background: url("bg.jpg");
+    width:80%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.main1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom:0;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.attention{
+    text-align: center;
+    background-color: #50C878;
+    width: 50%;
+    display: inline;
+    text-decoration: underline;
+}
+
+.main1 span{
+    color:#568203;
+}
+
+.main1 h2{
+font-weight: lighter;
+font-family: Arial, Helvetica, sans-serif;
+   margin:0;
+}
+
+.video-container{
+    margin-top: 1rem;
+    display:inline-block;
+    align-items: center;
+    flex: 1 1 40rem;
+    box-shadow: -5px 3px 2px -2px rgba(0, 106, 78, 1),0px 0px 4px 4px rgba(0, 106, 78, 1);    width: 50%;
+    height: 25rem;
+}
+
+
+/* 
+.video-container .video1{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;  
+} */
+
+
+.video-container iframe {
+    width: 100%;
+    height: 100%; 
+}
+
+
+
+.btn{
+    margin: 0;
+    margin-top: 2rem;
+    background-color: #03C03C;
+    width: 55%;
+    height: 4rem;
+}
+
+.btn h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    color: #fff;
+    
+}
+
+.btn h2{
+    padding: 0;
+    font-size: .7rem;
+
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.main1 .slots{
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.main2{
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #28282B;
+}
+
+.main2 .content{
+    text-align: center;
+    align-items: center;
+}
+
+
+.main2 h3{
+    margin: 0;
+    padding-bottom: 1rem;
+    color: #008200;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main2 h2{
+    margin: 0;
+    color: #fff;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.main2 .box-container{
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 60%;
+    height: 35rem;
+}
+
+
+.main2 .box-container .box{
+    display: inline;
+    padding-right: 1.5rem;
+    width: 30%;
+    height: 80%;
+}
+
+.main2 .box-container .box img{
+    width: 30%;
+    height: 70%;
+}
+
+
+.button-container{
+    width: 100%;
+}
+
+.button-container .btn{
+    width: 100%;
+    height: 4rem;
+}
+
+.button-container .btn h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.button-container .btn h2{
+    padding: 0;
+    font-size: .7rem;
+    color: black;
+}
+
+
+.main3{
+    width:100%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    background-color: #28282B;
+}
+
+
+.main3 h3{
+    margin: 0;
+    padding-bottom: 1rem;
+    color: #008200;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.main3 .box-container{
+    margin: 0 auto;
+    padding-top: 3rem;
+    width: 60%;
+    height: 35rem;
+}
+
+
+.main3 .box-container .box{
+    display: inline-block;
+    padding-right: 2rem;
+    width: 19rem;
+}
+
+
+.main3 .box-container .box img{
+    width: 40%;
+    height: 8rem;
+}
+
+.main3 .box-container .box h2{
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+.main3 .box-container .box h3{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+@media(max-width:991px){
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .main1 h3{
+    font-size: 1.7rem;}
+
+    .main1 .video-container{
+        width: 100%;
+        height: 13rem;
+        }
+
+        .btn{
+            width: 100%;
+        }
+        
+        .btn h3{
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .main2{
+            height: 100rem;
+        }
+
+        .main2 .box-container{
+            width: 100%;
+            background-color: #28282B;
+        }
+        
+        
+        .main2 .box-container .box{
+            width: 100%;
+            height: 100%;
+        }
+        
+        .main2 .box-container .box img{
+            margin: 0 auto;
+            width: 70%;
+            height: 70%;
+        }
+
+        .main2 h3{
+            font-size: 1.5rem;
+        }
+        
+        .main2 h2{
+            font-size: 1rem;
+        }
+
+        .button-container{
+            width: 100%;
+        }
+        
+        .button-container .btn{
+            width: 100%;
+            height: 4rem;
+        }
+        
+        .button-container .btn h3{
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        
+        .button-container .btn h2{
+            font-size: .7rem;
+        }
+
+
+        .main3{
+            width:100%;
+           
+        }
+        
+        .main3 h3{
+            font-size: 1.2rem; 
+        }
+        
+        
+        .main3 .box-container{
+            width: 100%;    
+        }
+        
+        
+        .main3 .box-container .box{
+            padding-bottom: 2rem;
+
+        }
+        
+        .main3 .box-container .box img{
+            width: 80%;
+            height: 8rem;
+        }
+
+        
+        .button-container .btn{
+            width: 90%;
+            height: 4rem;
+        }
+        
+        .button-container .btn h3{
+            font-size: 1rem;
+            color: #fff;
+        }
+        
+        .button-container .btn h2{
+            font-size: .7rem;
+            color: black;
+        }
+        
+
+        .main3 p{
+            margin: 0 auto;
+            width:80%;
+            padding-top: 130%;
+        }
+
+        hr{
+            display: none;
+        }
+
+        
+    }
+
+
+
+
+
+
+@media(max-width: 450px) {
+    .main1 h3{
+        font-size: 1.7rem;}
+    
+        .main1 .video-container{
+            width: 100%;
+            height: 13rem;
+            }
+    
+            .btn{
+                width: 100%;
+            }
+            
+            .btn h3{
+                margin: 0;
+                font-size: 1.2rem;
+            }
+    
+            .main2{
+                height: 100rem;
+            }
+    
+            .main2 .box-container{
+                width: 100%;
+                background-color: #28282B;
+            }
+            
+            
+            .main2 .box-container .box{
+                width: 100%;
+                height: 100%;
+            }
+            
+            .main2 .box-container .box img{
+                margin: 0 auto;
+                width: 70%;
+                height: 70%;
+            }
+    
+            .main2 h3{
+                font-size: 1.5rem;
+            }
+            
+            .main2 h2{
+                font-size: 1rem;
+            }
+    
+            .button-container{
+                width: 100%;
+            }
+            
+            .button-container .btn{
+                width: 100%;
+                height: 4rem;
+            }
+            
+            .button-container .btn h3{
+                margin: 0;
+                font-size: 1.2rem;
+            }
+            
+            .button-container .btn h2{
+                font-size: .7rem;
+            }
+    
+    
+            .main3{
+                width:100%;
+               
+            }
+            
+            .main3 h3{
+                font-size: 1.2rem; 
+            }
+            
+            
+            .main3 .box-container{
+                width: 100%;    
+            }
+            
+            
+            .main3 .box-container .box{
+                padding-bottom: 2rem;
+    
+            }
+            
+            .main3 .box-container .box img{
+                width: 80%;
+                height: 8rem;
+            }
+    
+            
+            .button-container .btn{
+                width: 90%;
+                height: 4rem;
+            }
+            
+            .button-container .btn h3{
+                font-size: 1rem;
+                color: #fff;
+            }
+            
+            .button-container .btn h2{
+                font-size: .7rem;
+                color: black;
+            }
+            
+    
+            .main3 p{
+                margin: 0 auto;
+                width:80%;
+                padding-top: 130%;
+            }
+    
+            hr{
+                display: none;
+            }
+}
